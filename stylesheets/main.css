@@ -74,6 +74,10 @@ body {
 .navbar-inverse .btn-navbar {
   margin: 24px 20px 0 0; }
 
+.carousel-circle-text h1 {  /*put in*/
+margin-right: -80px;
+}
+
 .carousel-inner {
   -webkit-border-radius: 400px;
   -moz-border-radius: 400px;
@@ -82,13 +86,14 @@ body {
   border-radius: 400px; }
   .carousel-inner .carousel-circle-text {
     float: left;
-    margin: 140px 0px 0px 0px;  /*changed from margin: 229px 0 0 95px;*/
+    margin: 140px 0px 0px 10px;  /*changed from margin: 229px 0 0 95px;*/
     color: white;
     text-align: center; }
     .carousel-inner .carousel-circle-text h1 {
      font-family: 'museo_sans500'; /*text change for circle text h1*/
       font-weight: normal;
-      font-size: 71px; }
+      font-size: 71px;
+      margin-left: 30px; }
     .carousel-inner .carousel-circle-text h2 {
       font-family: 'museo_sans500';
       font-weight: normal;
@@ -116,9 +121,9 @@ body {
     border-radius: 400px;
     background: rgba(0, 0, 0, 0.1);
     padding:2px;
-    margin: 70px 0 0 -90px; }  /*change from margin: 67px 74px 0 0; }*/
+    margin: 70px 0 0 -80px; }  /*change from margin: 67px 74px 0 0; }*/
     .carousel-inner .carousel-circle-div .carousel-circle {
-      border: 10px white solid;
+      border: 5px black solid;
       -webkit-border-radius: 400px;
       -moz-border-radius: 400px;
       -ms-border-radius: 400px;
@@ -134,7 +139,7 @@ body {
 .carousel-control {
   width: 16px;
   height: 16px;
-  border: 8px white solid;
+  border: 8px black solid;
   background: none;
   -webkit-border-radius: 90px;
   -moz-border-radius: 90px;
